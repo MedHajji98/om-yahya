@@ -1,0 +1,207 @@
+/* 
+  theme Name:HTML5.
+  Date:Septembre 2022;
+  Discriprtion: creat site web by HTML5 CSS PHP;
+  Version:1.0;
+  Author:Simo Hajji;
+  Author URL : http://www.Med-Hajji.com;
+*/
+
+
+body {
+background-image: url('images/candy.jpg');
+color:#2d3436;
+font-size: 87%; /* base font-size= 14px */
+font-family: Arial, 'lucidz Sans Unicode';
+line-height: 2.5;.
+text-align: left;
+padding-top: 30px;
+padding-bottom:30px;
+height:auto ;
+width:70% ;
+float: center;
+}.
+a:hover{
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {color: blue;} 
+a:hover, a:active {color:orange} 
+
+.body{
+    margin: 10px auto;
+    width: 70%;
+}
+
+/*----------------main header----------------- */
+.mainheader img{
+    background-color: white;
+    width: 100%;
+
+}
+.mainheader nav{
+    background-color:yellow;
+    height: 50px;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    padding-bottom: -20%;
+
+}
+.mainheader nav ul{
+    text-align: center;
+    list-style:none ;
+    margin:  0 auto;
+    
+}
+.mainheader nav ul li {
+    display:inline-block ;
+    padding-top: 8%;
+}
+.mainheader a:link, .mainheader a:visited{
+    color: black;
+    padding:10px 30px ;
+    display: inline-block;
+    height: 25px;
+}
+ 
+.mainheader a:hover, .mainheader a:active{
+    color: darkorange;
+    background-color: hotpink;
+    text-shadow:none; 
+    float: center;
+}
+    /*---------------MAIN CONTENT--------------*/
+.maincontent{
+    width: 25%;
+}
+}
+.topcontent{
+    background-color:white;
+    padding: 3%;
+    margin-top: 3%; 
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    border-radius: 5px;
+  }
+   .post-info{
+    font-size :95%;
+    color: white;
+    margin-top: -2%;
+    font-style: italic;
+   }
+   .post-content{
+    display: inline-block;
+    font-size: 16px;
+   }
+   /*-------------SIDE BAR ----------*/
+   .top-sidebar{
+    background-color:white;
+    width: 22%;
+    margin: 2% 4%;
+    padding-left: 2%;
+    border-radius: 5px;
+     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    float:left;
+    }
+    /*-------FOOTER----------*/
+    .mainfooter{
+    background-color:yellow;
+    margin-top: 1.5%;
+    padding: 2% auto;
+    line-height: 10%;
+    width: 100%;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    float:left;
+    }
+
+    .mainfooter p{
+        text-align: center;
+        font-size:25px ;
+        width: 90%;
+        display: inline-block;
+    }
+    /*--------PHP-----------*/
+   .php{
+    font-size: 130%;
+    font-style: italic;
+    margin: 1px 1px;
+    padding:2px 2px;
+    padding-left: 213px;
+    }
+ .colone{
+    margin-left:190px ;
+ }
+
+    /*--------HTML5---------*/
+    .post-img{
+ width: 100%;
+    }
+    figure{
+margin: 25px 0;
+font-size: 80%;
+color: white;
+    }
+/*--------STYLE MOBILE CSS3 ------*/
+@media screen and (max-width: 480px){
+    .body{
+        width:80%;
+        font-size: 95%;
+    }
+
+}
+
+/*-------MAIN HEADER MOBILE--------*/
+.mainheader nav{
+    height: 200px;
+
+}
+    
+}
+.mainheader nav ul li {
+    display:inline;
+
+
+}
+.mainheader a:link, .mainheader a:visited{
+    color: black;
+    padding:10px 59px ;
+    height: 20px;
+    display: inline-block;
+
+}
+ 
+.mainheader a:hover, .mainheader a:active{
+    color: darkorange;
+    background-color: hotpink;
+    text-shadow:none;
+    width: 100%;
+
+}
+.maincontent{
+    width: 70%;
+}
+.thesidebar{
+    font-size: 20px;
+    width: 90%;
+    }
+  }
+  
+  /*--------STYLE IPAD CSS3 ------*/
+@media screen and (max-width: 680px){
+    .body{
+        width:100%;
+        font-size: 95%;
+   }
+       .mainheader nav {
+       font-size: 80%;
+   
+     }
+   }
+
+}
